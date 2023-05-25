@@ -20,7 +20,7 @@ public class User {
 
     @NotBlank(message = "Username cannot be empty")
     @Size(min = 5, message = "Username must be at least 5 character long")
-    private String nickName;
+    private String username;
 
     @NotBlank(message = "Password cannot be empty")
     private String password;
